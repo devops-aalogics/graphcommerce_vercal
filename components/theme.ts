@@ -24,16 +24,16 @@ const lightPalette: PaletteOptions = {
     dark: '#47C489',
   },
   secondary: {
-    main: '#006bff',
-    light: '#d1e4ff',
+    main: '#333',
+    light: '#47C489',
     contrastText: '#ffffff',
   },
   background: {
     default: '#F9F9FA',
-    paper: '#ffffff',
+    paper: '#A77935',
     image: '#ffffff',
   },
-  divider: '#00000015',
+  divider: '#A77935',
   success: {
     main: '#01d26a',
   },
@@ -42,7 +42,7 @@ const lightPalette: PaletteOptions = {
   },
   text: {
     primary: '#0F0F10',
-    secondary: '#03031755',
+    secondary: '#B08443',
     disabled: '#03031735',
   },
 }
@@ -50,18 +50,18 @@ const lightPalette: PaletteOptions = {
 const darkPalette: PaletteOptions = {
   mode: 'dark',
   primary: {
-    main: '#62C7B0',
+    main: '#000',
     contrastText: '#ffffff',
-    dark: '#62C7B0',
+    dark: '#A77935',
   },
   secondary: {
-    main: '#62C7B0',
-    light: '#62C7B0',
+    main: '#A77935',
+    light: '#A77935',
     contrastText: '#ffffff',
   },
   background: {
-    default: '#001727',
-    paper: '#15293B',
+    default: '#000',
+    paper: '#A77935',
     image: '#ffffff',
   },
   divider: '#ffffff30',
