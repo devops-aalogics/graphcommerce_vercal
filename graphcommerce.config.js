@@ -6,7 +6,7 @@
  * @type {import('@graphcommerce/next-config/src/generated/config').GraphCommerceConfig}
  */
 const config = {
-  hygraphEndpoint: 'https://api-eu-west-2.hygraph.com/v2/clv1yiz1z000008l8hsh91l2j/master',
+  hygraphEndpoint: 'https://eu-central-1.cdn.hygraph.com/content/ckhx7xadya6xs01yxdujt8i80/master',
   magentoEndpoint: 'https://staging.richy.sa/graphql',
   canonicalBaseUrl: 'https://headless.richy.sa',
   storefront: [
