@@ -50,7 +50,6 @@ function BlogPage(props: Props) {
 
       <Container maxWidth='xl'>
         <LayoutTitle variant='h1'>{title}</LayoutTitle>
-        <LayoutTitle variant='h3'>custom h3</LayoutTitle>
       </Container>
 
       <BlogList blogPosts={blogPosts} />
