@@ -39,6 +39,7 @@ function CmsPage(props: Props) {
 
       <LayoutHeader floatingMd floatingSm />
 
+      {page && <div>home page</div>}
       {page && (
         <RowRenderer
           content={page.content}
@@ -46,12 +47,15 @@ function CmsPage(props: Props) {
             RowProduct: (rowProps) => {
               const { identity } = rowProps
 
+              if (identity === 'home-favorites') return <div>home-favorites</div>
               if (identity === 'home-favorites')
                 return (
                   <RowProduct {...rowProps} {...favorite} items={favoritesList.products?.items} />
                 )
+              if (identity === 'home-latest') return <div>home-latest</div>
               if (identity === 'home-latest')
                 return <RowProduct {...rowProps} {...latest} items={latestList.products?.items} />
+              if (identity === 'home-swipable') return <div>home-swipable</div>
               if (identity === 'home-swipable')
                 return (
                   <RowProduct {...rowProps} {...swipable} items={swipableList.products?.items} />
