@@ -10,8 +10,8 @@ const config = {
   magentoEndpoint: 'https://staging.richy.sa/graphql',
   canonicalBaseUrl: 'https://headless.richy.sa',
   storefront: [
-    { locale: 'en', magentoStoreCode: 'en' },
     { locale: 'ar', magentoStoreCode: 'ar', defaultLocale: true },
+    { locale: 'en', magentoStoreCode: 'en' },
   ],
   recentlyViewedProducts: {
     enabled: true,

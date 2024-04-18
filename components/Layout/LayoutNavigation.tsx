@@ -122,13 +122,13 @@ export function LayoutNavigation(props: LayoutNavigationProps) {
           <>
             <Logo />
             <DesktopNavBar>
-              {menu?.items?.[0]?.children?.slice(0, 2).map((item) => (
+              {menu?.items?.[0]?.children?.slice(0, 5).map((item) => (
                 <DesktopNavItem key={item?.uid} href={`/${item?.url_path}`}>
                   {item?.name}
                 </DesktopNavItem>
               ))}
 
-              <DesktopNavItem
+              {/* <DesktopNavItem
                 onClick={() => selection.set([menu?.items?.[0]?.uid || ''])}
                 onKeyUp={(evt) => {
                   if (evt.key === 'Enter') {
@@ -139,7 +139,7 @@ export function LayoutNavigation(props: LayoutNavigationProps) {
               >
                 {menu?.items?.[0]?.name}
                 <IconSvg src={iconChevronDown} />
-              </DesktopNavItem>
+              </DesktopNavItem> */}
 
               <DesktopNavItem href='/blog'>
                 <Trans id='Blog' />
