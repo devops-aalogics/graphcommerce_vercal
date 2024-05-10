@@ -13,6 +13,7 @@ class Document extends NextDocument<EmotionCacheProps & LinguiDocumentProps> {
           <meta name='emotion-insertion-point' content='' />
           {this.props.emotionStyleTags}
           {this.props.linguiScriptTag}
+          <link rel='stylesheet' href='/custom2.css' />
         </Head>
         <body>
           <Main />
