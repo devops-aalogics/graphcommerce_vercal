@@ -10,7 +10,6 @@ import { CssBaseline } from '@mui/material'
 import { AppProps } from 'next/app'
 import { lightTheme, darkTheme } from '../components/theme'
 import { I18nProvider } from '../lib/i18n/I18nProvider'
-
 export default function ThemedApp(props: AppProps) {
   const { router } = props
   const { locale = 'en' } = router

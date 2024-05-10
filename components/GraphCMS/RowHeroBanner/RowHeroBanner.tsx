@@ -1,11 +1,12 @@
 import { RichText } from '@graphcommerce/graphcms-ui'
-import { breakpointVal, HeroBanner } from '@graphcommerce/next-ui'
+import { breakpointVal } from '@graphcommerce/next-ui'
+import { HeroBanner } from '../Row/HeroBanner'
 import { Button } from '@mui/material'
 import { RowHeroBannerFragment } from './RowHeroBanner.gql'
 
 export function RowHeroBanner(props: RowHeroBannerFragment) {
   const { copy, heroAsset, pageLinks } = props
-
+  // console.log(copy, heroAsset, pageLinks)
   return (
     <HeroBanner
       pageLinks={pageLinks.map(({ url, title }) => (
@@ -16,7 +17,7 @@ export function RowHeroBanner(props: RowHeroBannerFragment) {
       videoSrc={heroAsset.url}
       sx={(theme) => ({
         '& .HeroBanner-copy': {
-          minHeight: { xs: 'min(70vh,600px)', md: 'min(70vh,1080px)' },
+          minHeight: { xs: 'min(70vh,600px)', md: 'min(100vh,1080px)' },
           [theme.breakpoints.up('sm')]: {
             padding: theme.spacings.xl,
             justifyItems: 'start',
