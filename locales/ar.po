@@ -909,3 +909,9 @@ msgstr "{totalResults} results"
 
 msgid "{total_count} products"
 msgstr "{total_count} products"
+
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+msgid "Register"
+msgstr "يسجل"
