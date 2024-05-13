@@ -12,6 +12,7 @@ import {
   MuiChip,
   MuiButtonInline,
   NextLink,
+  svgIconStrokeWidth,
 } from '@graphcommerce/next-ui'
 import { createTheme, Theme, alpha, LinkProps } from '@mui/material'
 import { Components, PaletteOptions } from '@mui/material/styles'
@@ -185,6 +186,17 @@ const createThemeWithPalette = (palette: PaletteOptions) =>
 
 // todo: move most of the styles to the graphcommerce library while still allowing for extensibility.
 const createOverrides = (theme: Theme): Components<Theme> => ({
+  IconSvg: {
+    variants: [
+      {
+        props: {},
+        style: ({ theme }) => ({
+          color: theme.palette.primary.main,
+        }),
+      },
+    ],
+  },
+
   MuiCssBaseline: {
     styleOverrides: {
       body: {

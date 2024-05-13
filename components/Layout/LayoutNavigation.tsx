@@ -25,12 +25,13 @@ import {
 } from '@graphcommerce/next-ui'
 import { i18n } from '@lingui/core'
 import { Trans } from '@lingui/react'
-import { Divider, Fab } from '@mui/material'
+import { Divider, Fab, Box } from '@mui/material'
 import { useRouter } from 'next/router'
 import { useState } from 'react'
 import { Footer } from './Footer'
 import { LayoutQuery } from './Layout.gql'
 import { Logo } from './Logo'
+import { StoreSwitcherButton } from './../Magento/StoreSwitcherButton'
 
 export type LayoutNavigationProps = LayoutQuery &
   Omit<LayoutDefaultProps, 'footer' | 'header' | 'cartFab' | 'menuFab'>
@@ -119,58 +120,79 @@ export function LayoutNavigation(props: LayoutNavigationProps) {
         {...uiProps}
         noSticky={router.asPath.split('?')[0] === '/'}
         header={
-          <>
+          <Box
+            sx={{
+              display: 'flex',
+              justifyContent: 'center',
+              flexDirection: 'column',
+              flexGrow: 1,
+              pointerEvents: 'none',
+              paddingTop: '20px',
+            }}
+          >
             <Logo />
-            <DesktopNavBar>
-              {menu?.items?.[0]?.children?.slice(0, 5).map((item) => (
-                <DesktopNavItem key={item?.uid} href={`/${item?.url_path}`}>
-                  {item?.name}
+
+            <Box
+              sx={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexGrow: 1,
+                pointerEvents: 'none',
+              }}
+            >
+              <DesktopNavActions>
+                <CartFab />
+                <WishlistFab icon={<IconSvg src={iconHeart} size='large' />} />
+                <CustomerFab guestHref='/account/signin' authHref='/account' />
+              </DesktopNavActions>
+
+              <DesktopNavBar>
+                {menu?.items?.[0]?.children?.slice(0, 4).map((item) => (
+                  <DesktopNavItem key={item?.uid} href={`/${item?.url_path}`}>
+                    {item?.name}
+                  </DesktopNavItem>
+                ))}
+
+                {/* <DesktopNavItem
+                  onClick={() => selection.set([menu?.items?.[0]?.uid || ''])}
+                  onKeyUp={(evt) => {
+                    if (evt.key === 'Enter') {
+                      selection.set([menu?.items?.[0]?.uid || ''])
+                    }
+                  }}
+                  tabIndex={0}
+                >
+                  {menu?.items?.[0]?.name}
+                  <IconSvg src={iconChevronDown} />
+                </DesktopNavItem> */}
+
+                <DesktopNavItem href='/blog'>
+                  <Trans id='Our news' />
                 </DesktopNavItem>
-              ))}
 
-              {/* <DesktopNavItem
-                onClick={() => selection.set([menu?.items?.[0]?.uid || ''])}
-                onKeyUp={(evt) => {
-                  if (evt.key === 'Enter') {
-                    selection.set([menu?.items?.[0]?.uid || ''])
-                  }
-                }}
-                tabIndex={0}
-              >
-                {menu?.items?.[0]?.name}
-                <IconSvg src={iconChevronDown} />
-              </DesktopNavItem> */}
+                <DesktopNavItem href='/testpage'>
+                  <Trans id='Test Page' />
+                </DesktopNavItem>
 
-              <DesktopNavItem href='/blog'>
-                <Trans id='Blog' />
-              </DesktopNavItem>
-            </DesktopNavBar>
+                <StoreSwitcherButton />
+              </DesktopNavBar>
 
-            <DesktopNavActions>
-              {!router.pathname.startsWith('/search') && (
-                <SearchLink
-                  href='/search'
-                  aria-label={i18n._(/* i18n */ 'Search...')}
-                  breakpoint='lg'
-                />
-              )}
-              <Fab
-                href='/service'
-                aria-label={i18n._(/* i18n */ 'Customer Service')}
-                size='large'
-                color='inherit'
-              >
-                <IconSvg src={iconCustomerService} size='large' />
-              </Fab>
-              <WishlistFab icon={<IconSvg src={iconHeart} size='large' />} />
-              <CustomerFab guestHref='/account/signin' authHref='/account' />
-              {/* The placeholder exists because the CartFab is sticky but we want to reserve the space for the <CartFab /> */}
-              <PlaceholderFab />
-            </DesktopNavActions>
-          </>
+              <DesktopNavActions>
+                {!router.pathname.startsWith('/search') && (
+                  <SearchLink
+                    href='/search'
+                    aria-label={i18n._(/* i18n */ 'Search...')}
+                    breakpoint='lg'
+                  />
+                )}
+
+                {/* The placeholder exists because the CartFab is sticky but we want to reserve the space for the <CartFab /> */}
+                <PlaceholderFab />
+              </DesktopNavActions>
+            </Box>
+          </Box>
         }
         footer={<Footer footer={footer} />}
-        cartFab={<CartFab />}
         menuFab={<NavigationFab onClick={() => selection.set([])} />}
       >
         {children}
