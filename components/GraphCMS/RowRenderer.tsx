@@ -4,7 +4,7 @@ import { PageContentQueryFragment } from './PageContentQueryFragment.gql'
 import { RowButtonLinkList } from './RowButtonLinkList/RowButtonLinkList'
 import { RowColumnOne } from './RowColumnOne/RowColumnOne'
 import { RowColumnThree } from './RowColumnThree/RowColumnThree'
-// import { RowColumnTwo } from './RowColumnTwo/RowColumnTwo'
+import { RowColumnTwo } from './RowColumnTwo/RowColumnTwo'
 import { RowContentLinks } from './RowContentLinks/RowContentLinks'
 import { RowHeroBanner } from './RowHeroBanner/RowHeroBanner'
 import { RowLinks } from './RowLinks/RowLinks'
@@ -19,10 +19,9 @@ type ContentTypeRenderer = TypeRenderer<PageContentQueryFragment['pages'][0]['co
 
 const defaultRenderer: Partial<ContentTypeRenderer> = {
   RowColumnOne,
-  // RowColumnTwo,
+  RowColumnTwo,
   RowColumnThree,
   RowHeroBanner,
-  // RowHeroBannerCopy,
   RowSpecialBanner,
   RowQuote,
   RowBlogContent,
@@ -42,7 +41,6 @@ export function RowRenderer(props: PageProps) {
   const { content, renderer, loadingEager = 2 } = props
   const mergedRenderer = { ...defaultRenderer, ...renderer } as ContentTypeRenderer
 
-  // console.log('content test', content)
   return (
     <>
       {content?.map((item, index) => (

@@ -1,12 +1,10 @@
 import { RichText } from '@graphcommerce/graphcms-ui'
-import { breakpointVal } from '@graphcommerce/next-ui'
-import { HeroBanner } from '@graphcommerce/next-ui'
+import { breakpointVal, HeroBanner } from '@graphcommerce/next-ui'
 import { Button } from '@mui/material'
 import { RowHeroBannerFragment } from './RowHeroBanner.gql'
 
 export function RowHeroBanner(props: RowHeroBannerFragment) {
   const { copy, heroAsset, pageLinks } = props
-  // console.log(copy, heroAsset, pageLinks)
   return (
     <HeroBanner
       pageLinks={pageLinks.map(({ url, title }) => (
