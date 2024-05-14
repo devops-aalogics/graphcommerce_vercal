@@ -910,8 +910,3 @@ msgstr "{totalResults} results"
 msgid "{total_count} products"
 msgstr "{total_count} products"
 
-msgid "Sign in"
-msgstr "Login"
-
-msgid "Create Account"
-msgstr "Register"
