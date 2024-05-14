@@ -1,4 +1,4 @@
-import { SelectElement, TextFieldElement } from '@graphcommerce/ecommerce-ui'
+import { TextFieldElement } from '@graphcommerce/ecommerce-ui'
 import { FormRow, InputCheckmark } from '@graphcommerce/next-ui'
 import { assertFormGqlOperation, UseFormReturn } from '@graphcommerce/react-hook-form'
 import { i18n } from '@lingui/core'

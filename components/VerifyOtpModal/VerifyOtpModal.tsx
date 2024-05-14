@@ -5,7 +5,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import { useState , FC, ReactElement} from 'react';
-import { SelectElement, TextFieldElement } from '@graphcommerce/ecommerce-ui'
+import {TextFieldElement } from '@graphcommerce/ecommerce-ui'
 import { useFormGqlMutation, useFormPersist } from '@graphcommerce/react-hook-form'
 import { SignUpDocument, SignUpMutation, SignUpMutationVariables } from '../../graphql/SignUp.gql'
 import MailLockIcon from '@mui/icons-material/MailLock';
@@ -21,27 +21,15 @@ export default function VerifyOtpModal({open ,onClose}) {
   >(
     Mutation,
   )
-  const {  required, control } = form
+  const {required, control } = form
   const handleClose = () => {
     onClose(false);
   };
-console.log('taha', open)
   return (
       <Dialog
         open={open}
         onClose={handleClose}
         fullWidth
-        // PaperProps={{
-        //   component: 'form',
-        //   onSubmit: (event: React.FormEvent<HTMLFormElement>) => {
-        //     event.preventDefault();
-        //     const formData = new FormData(event.currentTarget);
-        //     const formJson = Object.fromEntries((formData as any).entries());
-        //     const email = formJson.email;
-        //     console.log(email);
-        //     handleClose();
-        //   },
-        // }}
       >
         <Box sx={{ display: 'flex', justifyContent: 'center' ,alignItems: 'flex-start' }}>
         <MailLockIcon 
@@ -55,7 +43,6 @@ console.log('taha', open)
           <CloseIcon/>
           </Button>
         </Box>
-        {/* <Box> </Box> */}
         <DialogContent>
           <DialogContentText sx={{ color: '#1E1E1E' }}>
             Please check your sms message
@@ -94,6 +81,5 @@ console.log('taha', open)
         </DialogActions>
         <Link href='/'> Resend otp </Link>
       </Dialog>
-    // </React.Fragment>
   );
 }

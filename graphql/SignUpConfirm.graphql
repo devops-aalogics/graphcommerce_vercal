@@ -10,7 +10,7 @@ mutation SignUpConfirm(
   $gender: Int
   $isSubscribed: Boolean = false
   $dateOfBirth: String
-  $mobile:String
+  $mobile:String!
 ) {
   ...CustomCreateCustomerMutationFragment
   

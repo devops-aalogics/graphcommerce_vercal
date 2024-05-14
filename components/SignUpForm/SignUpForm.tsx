@@ -48,7 +48,12 @@ export function SignUpForm(props: SignUpFormProps) {
   const [selectedValue, setSelectedValue] = useState('Select Gender');
   const [remainingError, inputError] = graphqlErrorByCategory({ category: 'graphql-input', error })
  
-  const submitHandler = handleSubmit(() => {})
+  const submitHandler = handleSubmit(() => {
+    // if(form.formState.isSubmitting){
+      handleClickOpen();
+    // }
+  
+  })
   const handleChange = (event) => {
      setSelectedValue(event);
   };
@@ -62,7 +67,7 @@ export function SignUpForm(props: SignUpFormProps) {
   useFormPersist({ form, name: 'SignUp', exclude: ['password', 'confirmPassword'] })
 
   const handleClickOpen = () => {
-    setShowModal(true);
+      setShowModal(true); 
   };
 
   if (requireEmailValidation && form.formState.isSubmitSuccessful) {
@@ -105,9 +110,9 @@ export function SignUpForm(props: SignUpFormProps) {
         
         )}
       />
-      {/* <MuiPhoneNumber defaultCountry="us"  />; */}
       <PhoneInputField form={form}/>
       </FormRow>
+
       <ApolloCustomerErrorSnackbar error={remainingError} />
 
       <FormActions>
@@ -118,13 +123,13 @@ export function SignUpForm(props: SignUpFormProps) {
           color='primary'
           size='large'
           loading={formState.isSubmitting}
-          onClick={handleClickOpen}
         >
           <Trans id='Create Account' />
         </Button>
-       
-        <VerifyOtpModal open={showModal} onClose={setShowModal} />
       </FormActions>
+
+      <VerifyOtpModal open={showModal} onClose={setShowModal} />
     </form>
+    
   )
 }

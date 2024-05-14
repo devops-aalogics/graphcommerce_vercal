@@ -1,4 +1,4 @@
-import { FormRow, InputCheckmark } from '@graphcommerce/next-ui'
+import { FormRow } from '@graphcommerce/next-ui'
 import { PhoneInput } from 'react-international-phone';
 import { assertFormGqlOperation, UseFormReturn } from '@graphcommerce/react-hook-form'
 import 'react-international-phone/style.css';
@@ -23,15 +23,9 @@ export function PhoneInputField(props: PhoneInputFieldProps) {
   const [phone, setPhone] = useState('');
   
   const validatePhone = (value) => {
-
-    console.log(value.length);
-  
     if (value.length < 13) { 
-       console.log('Invalid phone number format');
       return 'Invalid phone number format'; 
-    
     }
-  
     return true; 
   };
   return (
@@ -46,10 +40,9 @@ export function PhoneInputField(props: PhoneInputFieldProps) {
             message: "Mobile number is required",
             
           },
-          validate: validatePhone,
-          
-          
+          validate: validatePhone, 
         }}
+        
         render={({ field: { onChange, value } }) => ( 
       <PhoneInput
         required={required.mobile}

@@ -10,7 +10,7 @@ mutation SignUp(
   $gender: Int
   $isSubscribed: Boolean = false
   $dateOfBirth: String
-  $mobile: String
+  $mobile:String!
 ) {
   ...CustomCreateCustomerMutationFragment
   generateCustomerToken(email: $email, password: $password) {
