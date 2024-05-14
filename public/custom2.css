@@ -1,0 +1,24 @@
+.AccountSignInUpForm-root.cstm_form_changes {
+  background: rgb(255, 255, 255);
+  max-width: 30%;
+  margin-top: 5%;
+  margin-left: 5%;
+  max-height: 640px;
+  overflow-y: auto;
+  padding: 10px 20px;
+}
+.AccountSignInUpForm-root.cstm_form_changes .mui-style-vf9uf-MuiButtonBase-root.variantOutlined {
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.0823529412);
+  border-radius: 0;
+}
+.AccountSignInUpForm-root.cstm_form_changes .mui-style-vf9uf-MuiButtonBase-root.variantOutlined.selected {
+  box-shadow: inset 0px -2px 0px 0px #ae864a;
+}
+
+@media only screen and (max-width: 600px) {
+  .AccountSignInUpForm-root.cstm_form_changes {
+    max-width: 90%;
+    margin-top: 30%;
+    max-height: 460px;
+  }
+}/*# sourceMappingURL=custom2.css.map */

@@ -6,9 +6,10 @@ import { useMergeGuestWishlistWithCustomer } from '@graphcommerce/magento-wishli
 import { GetStaticProps, LayoutOverlayHeader, LayoutTitle } from '@graphcommerce/next-ui'
 import { i18n } from '@lingui/core'
 import { Trans } from '@lingui/react'
-import { Container } from '@mui/material'
+import { Container, Box } from '@mui/material'
 import { LayoutOverlay, LayoutOverlayProps } from '../../components'
 import { graphqlSharedClient } from '../../lib/graphql/graphqlSsrClient'
+import { convertLength } from '@mui/material/styles/cssUtils'
 
 type GetPageStaticProps = GetStaticProps<LayoutOverlayProps>
 
@@ -17,17 +18,26 @@ function AccountSignInPage() {
   useMergeGuestWishlistWithCustomer()
 
   return (
-    <>
+    <Box
+      className='cst_login_signup_bg'
+      sx={{
+        backgroundImage: 'url("/images/bg-login-signup.png")',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundPositionX: 'right',
+        height: '100vh',
+        paddingBottom: '50px',
+      }}
+    >
       <PageMeta title={i18n._(/* i18n */ 'Sign in')} metaRobots={['noindex']} />
       <LayoutOverlayHeader>
         <LayoutTitle size='small' component='span'>
-          <Trans id='Sign in' />
+          <Trans id='Login' />
         </LayoutTitle>
       </LayoutOverlayHeader>
-      <Container maxWidth='md'>
-        <AccountSignInUpForm />
-      </Container>
-    </>
+      <AccountSignInUpForm />
+      <Container maxWidth='sm'></Container>
+    </Box>
   )
 }
 
