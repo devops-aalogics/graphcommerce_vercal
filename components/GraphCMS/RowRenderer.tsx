@@ -13,6 +13,7 @@ import { RowQuote } from './RowQuote/RowQuote'
 import { RowRendererFragment } from './RowRenderer.gql'
 import { RowServiceOptions } from './RowServiceOptions/RowServiceOptions'
 import { RowSpecialBanner } from './RowSpecialBanner/RowSpecialBanner'
+import { Box } from '@mui/material'
 
 type ContentTypeRenderer = TypeRenderer<PageContentQueryFragment['pages'][0]['content'][0]>
 
@@ -44,7 +45,9 @@ export function RowRenderer(props: PageProps) {
     <>
       {content?.map((item, index) => (
         <LazyHydrate key={item.id} hydrated={index < loadingEager ? true : undefined}>
-          <RenderType renderer={mergedRenderer} {...item} />
+          <Box className={item?.identity ? item?.identity : `${item.__typename}`}>
+            <RenderType renderer={mergedRenderer} {...item} />
+          </Box>
         </LazyHydrate>
       ))}
     </>
