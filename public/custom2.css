@@ -1,5 +1,5 @@
-.AccountSignInUpForm-rootcstm_form_changes {
-  background: white;
+.AccountSignInUpForm-root.cstm_form_changes {
+  background: rgb(255, 255, 255);
   max-width: 30%;
   margin-top: 5%;
   margin-left: 5%;
@@ -7,32 +7,18 @@
   overflow-y: auto;
   padding: 10px 20px;
 }
-.AccountSignInUpForm-rootcstm_form_changes .mui-style-vf9uf-MuiButtonBase-root.variantOutlined {
+.AccountSignInUpForm-root.cstm_form_changes .mui-style-vf9uf-MuiButtonBase-root.variantOutlined {
   box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.0823529412);
   border-radius: 0;
 }
-.AccountSignInUpForm-rootcstm_form_changes .mui-style-vf9uf-MuiButtonBase-root.variantOutlined.selected {
+.AccountSignInUpForm-root.cstm_form_changes .mui-style-vf9uf-MuiButtonBase-root.variantOutlined.selected {
   box-shadow: inset 0px -2px 0px 0px #ae864a;
-}
-.AccountSignInUpForm-rootcstm_form_changes::-webkit-scrollbar {
-  width: 10px;
-}
-.AccountSignInUpForm-rootcstm_form_changes::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-.AccountSignInUpForm-rootcstm_form_changes::-webkit-scrollbar-thumb {
-  background: #ae864a;
-  border-radius: 10px;
-}
-.AccountSignInUpForm-rootcstm_form_changes::-webkit-scrollbar-thumb:hover {
-  background: grey;
 }
 
 @media only screen and (max-width: 600px) {
-  .AccountSignInUpForm-rootcstm_form_changes {
+  .AccountSignInUpForm-root.cstm_form_changes {
     max-width: 90%;
     margin-top: 30%;
-    max-height: 450px;
+    max-height: 460px;
   }
 }/*# sourceMappingURL=custom2.css.map */
