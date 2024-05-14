@@ -18,7 +18,7 @@ import { PhoneInputField } from '../PhoneInput/PhoneInputField';
 import  { Dayjs } from 'dayjs';
 import  dayjs from 'dayjs';
 import { Controller, ControllerProps, FieldValues } from '@graphcommerce/react-hook-form'
-
+import VerifyOtpModal from '../VerifyOtpModal/VerifyOtpModal';
 
 
 
@@ -58,7 +58,12 @@ export function SignUpForm(props: SignUpFormProps) {
     { id: 2, label: 'Female' }
   ];
   const [phone, setPhone] = useState('');
+  const [showModal, setShowModal] = useState(false);
   useFormPersist({ form, name: 'SignUp', exclude: ['password', 'confirmPassword'] })
+
+  const handleClickOpen = () => {
+    setShowModal(true);
+  };
 
   if (requireEmailValidation && form.formState.isSubmitSuccessful) {
     return (
@@ -113,9 +118,12 @@ export function SignUpForm(props: SignUpFormProps) {
           color='primary'
           size='large'
           loading={formState.isSubmitting}
+          onClick={handleClickOpen}
         >
           <Trans id='Create Account' />
         </Button>
+       
+        <VerifyOtpModal open={showModal} onClose={setShowModal} />
       </FormActions>
     </form>
   )
