@@ -2,8 +2,12 @@
 
 .HomePg {
   .home-hero-banner {
+    .HeroBanner-wrapper {
+      border-radius: 0;
+    }
     .HeroBanner-root {
       margin-bottom: 60px;
+      padding: 0;
     }
   }
   .uni-head {
@@ -62,6 +66,7 @@
         h2 {
           font-size: 36px;
           margin-bottom: 20px;
+          color: white;
         }
         .MuiLink-root {
           text-decoration: unset;
@@ -69,6 +74,7 @@
           border-bottom: 3px solid #fff;
           padding-left: 10px;
           padding-right: 10px;
+          color: white;
         }
       }
     }
@@ -81,9 +87,10 @@
       position: relative;
       gap: 50px;
       justify-content: space-between;
+      margin-bottom: 40px;
       .RowLinks-title {
         position: absolute;
-        right: 42%;
+        right: 24%;
         top: 10%;
         margin: 0;
       }
@@ -93,6 +100,11 @@
       .RowLinks-scrollerWrapper {
         width: 50%;
       }
+    }
+  }
+  .best-seller-section {
+    .MuiContainer-root {
+      margin-bottom: 40px;
     }
   }
 }
