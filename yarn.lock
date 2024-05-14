@@ -1453,10 +1453,10 @@
   resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.1.tgz#16308cea045f0fc777b6ff20a9f25474dd8293d2"
   integrity sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==
 
-"@graphcommerce/cli@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/cli/-/cli-8.0.3.tgz#ee1ab6887b7f8b02ff40a89627310da8c48ece81"
-  integrity sha512-ygkN3JBl3fbTJFUnoOSAQU4pkpf+KuF7qk8U429pFZ01Asz4OhK4BllQzc1Rzyv7BnYvjGisSRstQ8cQfIAx+g==
+"@graphcommerce/cli@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/cli/-/cli-8.0.4.tgz#a01a84692f30ae39b90997be7b5ae47bee5715b3"
+  integrity sha512-KC881OySsWd438M2Jlg/9DNshq9krCqjplIa1HihQhKPnxmQO3YtxjhA3a/Oe9F9ah6TbJJITxDRdQAhCMzdkA==
   dependencies:
     "@graphql-codegen/cli" "5.0.1"
     "@graphql-mesh/cli" latest
@@ -1473,22 +1473,22 @@
     rimraf "^5.0.5"
     tslib "^2.6.2"
 
-"@graphcommerce/demo-magento-graphcommerce@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/demo-magento-graphcommerce/-/demo-magento-graphcommerce-8.0.3.tgz#afe91c8b7b3f2dfed95547b3a664b09dba45172a"
-  integrity sha512-2vBRYXKfbcKKEI+ZDV+GIJPhGzSRTjZZexlUPUBI08mGVlHZ83NlXY57vf2kbph82O/SCTyfoDHMhOfdMvknSg==
+"@graphcommerce/demo-magento-graphcommerce@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/demo-magento-graphcommerce/-/demo-magento-graphcommerce-8.0.4.tgz#c31391f0b84634912cf497b3327626ffa35fd08c"
+  integrity sha512-hRN6njKRMajlZjgcc4TBMDo414W1rssQ6m/+Su809ub8rVsvbgRbjqZA+m3IfWNrLBbauwdFeaBe004OZNRVew==
 
-"@graphcommerce/ecommerce-ui@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/ecommerce-ui/-/ecommerce-ui-8.0.3.tgz#57c878f9a44c318c37ea7f5d9ffb650cfb9b123f"
-  integrity sha512-862lZltdvjiKlaMoo4QI7uHsoNnNYO1/Z8LhLdpQOSqhixSLbW9EMV0FSDWtfdPCfxdsyeaHKRDwNtS6AEzkWQ==
+"@graphcommerce/ecommerce-ui@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/ecommerce-ui/-/ecommerce-ui-8.0.4.tgz#805d0eae408f850cafb52019d3ba71fff32c7095"
+  integrity sha512-1IsXL08Q9F7vLopNAxoulq0Z2srFAOBf/SwtbaEBp5r3B3QCeShxI2WqBglC+Og96DOdwgRR83bdm+txpB8brQ==
 
-"@graphcommerce/eslint-config-pwa@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/eslint-config-pwa/-/eslint-config-pwa-8.0.3.tgz#b24af6ce3e84d329635dd1a5a8e9b13e477d8153"
-  integrity sha512-xpUtqce3I++GXsmPiVBhZWsBH41xc7PqUZ2Vt2v8A3zZ14Qj/eZyjAepMFfoivvRvOYNcv+9QMRTKRTcnzsFyw==
+"@graphcommerce/eslint-config-pwa@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/eslint-config-pwa/-/eslint-config-pwa-8.0.4.tgz#6746bea0051e203e6d40c8fd6623a496f3f9de74"
+  integrity sha512-vQGbgdc3Ruvy63GQrOsEeusSz6BYtC12EaNqvkzYgrSTI5+4NznnI8yqSCsIwOg06yLhL7dxiY4Gvzq5dJsjyw==
   dependencies:
-    "@graphcommerce/typescript-config-pwa" "8.0.3"
+    "@graphcommerce/typescript-config-pwa" "8.0.4"
     "@next/eslint-plugin-next" "14.1.0"
     "@typescript-eslint/eslint-plugin" "^6.19.0"
     "@typescript-eslint/parser" "^6.19.0"
@@ -1500,49 +1500,58 @@
     eslint-plugin-react "^7.33.2"
     eslint-plugin-react-hooks "4.6.0"
 
-"@graphcommerce/framer-next-pages@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/framer-next-pages/-/framer-next-pages-8.0.3.tgz#8554d8eb52d74c7fdf39c13c918f65c803216f0f"
-  integrity sha512-r3yA80GkAAslsp9/xM+qo85mME0WvkgDJrCkU+NtWezZ/8avv0mQaH6I+M5BGMvj57Er7m2FyXqrdqDmEstWow==
+"@graphcommerce/framer-next-pages@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/framer-next-pages/-/framer-next-pages-8.0.4.tgz#29d856a4a5085f5e7c2cd63e354c862bd11eedd6"
+  integrity sha512-4PjlB7YAgl8iJbvV9XCREdXbQzt+eNFgU/2iv5Zh/beSodNDRaKS8OQ7ibrc8wUMb+FuS9XUent8UIRh+7OXuw==
 
-"@graphcommerce/framer-scroller@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/framer-scroller/-/framer-scroller-8.0.3.tgz#0c2a822cc9c633dd8f2d811974fd3873ac069d1f"
-  integrity sha512-OldkdBybXQDJV0wnPrIa4lxmqXZpxrGMM/MBr+klXWbbvbmw88vM6AUYaZoBHvmx2xurjo9MJs+HsSsU+9RZ6w==
+"@graphcommerce/framer-scroller@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/framer-scroller/-/framer-scroller-8.0.4.tgz#ea0ce995e2f10b73ea5326a3952e06f1b26e6192"
+  integrity sha512-MkU3y8rmpAw2kAWB3BxWlKOBhOWuMCmIgRaPFa26+aY09cXfiT2fF4cXgSJ/zCLJVcvJ/xAdiloU50vs4gUVug==
   dependencies:
     popmotion "11.0.5"
 
-"@graphcommerce/framer-utils@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/framer-utils/-/framer-utils-8.0.3.tgz#94e859ab0ae58b6b593a2faad77fd20267b9328e"
-  integrity sha512-mG24fYONxYdD8tJDlwtqQ1e9CF30JOV4n24r7Fhuu9BhsPEpfFxmw0nj78fW7aiGUJnYkugx9ezMBvSF8gt+DA==
+"@graphcommerce/framer-utils@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/framer-utils/-/framer-utils-8.0.4.tgz#fc8ddc62f4c06fb0214b130bdc9bdca483abaee2"
+  integrity sha512-s1pYyPBjsdnrAqhF+YsRlWqnMKigrGPO9fyq/rvyp11dLaYLk9ni0iBHnECD+0rGXxd7BfEok4UBpa49D2VQ7g==
   dependencies:
     framesync "^6.1.2"
 
-"@graphcommerce/googleanalytics@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/googleanalytics/-/googleanalytics-8.0.3.tgz#e3c5a27574f6e8bcbcdfe050944b452fece9acbc"
-  integrity sha512-s/hp9dxhNuGiWg1f2ZDLWfQXAAd7Y79fUS942rh2PTblMLM0FaHvKa/nxbNWM+/D/r8uoXfXeKGRePvPLNoy9w==
+"@graphcommerce/google-datalayer@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/google-datalayer/-/google-datalayer-8.0.4.tgz#4e0b61081040ef07251bd4090a0aa7edd26e1044"
+  integrity sha512-0p1V263orff0XYjgXM7P0mLn/G/lyFuzeIHlcJdKQM+RUJdGKqaLzYnbe6NRE2zpnxVjmey3gYrdyzJRRwK52w==
 
-"@graphcommerce/googlerecaptcha@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/googlerecaptcha/-/googlerecaptcha-8.0.3.tgz#a627d8483029c153a62a533fa630acd830368504"
-  integrity sha512-C/vH0qQrGfsfpgNbh3DdNNR6L7aG1wu931QeHjVQ/IYWqTnhBKQpal4CVk2nrEI0CajXQLo0hnie46iFn2rkHw==
+"@graphcommerce/googleanalytics@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/googleanalytics/-/googleanalytics-8.0.4.tgz#4c8e139c411607331d6515d6081b9a8cf2daff87"
+  integrity sha512-iRDhv+o+/kQ17el1Tfu5ZzYPDlvZzAYhfmzoDQ/XwFvurQ4uHfX/r3nfWRhlXCoATGtRPxKsTAvIIxpQn39LDA==
+  dependencies:
+    "@graphcommerce/google-datalayer" "8.0.4"
 
-"@graphcommerce/googletagmanager@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/googletagmanager/-/googletagmanager-8.0.3.tgz#e212a8d49d0fed4c6ef9ce83ae0dda7298bf78fa"
-  integrity sha512-pYVQPROWxqXcX4VzAH72AregL6QRg3I4sUidpx2ulkRjU0hJ4qfex59g2xQaNJpK/U/P/IUt4y9LAS0dWvEhLw==
+"@graphcommerce/googlerecaptcha@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/googlerecaptcha/-/googlerecaptcha-8.0.4.tgz#e7ac39247282a650e492b90380f6116ef5fda5a8"
+  integrity sha512-urS6kjdfDl6DaG2QMwA9TnD+rimzZZwCegYfOYEqdn7grKyG4j262eYXjKyMpFGHwxhdplI3zhmrg4HeGYj1bA==
 
-"@graphcommerce/graphcms-ui@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/graphcms-ui/-/graphcms-ui-8.0.3.tgz#f6aaaa900f07a18c48a9638b9d626e2d13228ca3"
-  integrity sha512-nz2TsjTXc1a0uCopXLkXFmpVBaozpCCuXw1pavLKpllhscgV3pex0heQT7MtTyJms36UjlgCzJxmwAZjK1vm9Q==
+"@graphcommerce/googletagmanager@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/googletagmanager/-/googletagmanager-8.0.4.tgz#012d20bb5f452281361a2a9da547e5738a61208e"
+  integrity sha512-ToB3mPfiI5NR3iqsXY+354JL4cferhuJGelK/QNCIKbyvjUu7PdAM5LddjiYCkPNzoW9KHW6IvnK5Vp3qF6U8w==
+  dependencies:
+    "@graphcommerce/google-datalayer" "8.0.4"
 
-"@graphcommerce/graphql-codegen-near-operation-file@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/graphql-codegen-near-operation-file/-/graphql-codegen-near-operation-file-8.0.3.tgz#987dececd3f12cd9a343443fea50718eb1838d88"
-  integrity sha512-aGQ3nA/iy+1o+ANzPhvzWCTx+Ki+6MlVVWrgkSXWrvdeEm4wqN7r2KHLrER3hnydCxSdP3aJdFBsvw09WkbTAA==
+"@graphcommerce/graphcms-ui@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/graphcms-ui/-/graphcms-ui-8.0.4.tgz#68c91bff9ce67b9956dfa01b8bbf574e0899fcd0"
+  integrity sha512-YA9K6zw6stjLbFaFn8E+VO/mnoi3ff5i841MMUz+uHJ1QcjfSZNPgiWgpCkvB/qzgLHpR/0Nh4li54zTB7LjfQ==
+
+"@graphcommerce/graphql-codegen-near-operation-file@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/graphql-codegen-near-operation-file/-/graphql-codegen-near-operation-file-8.0.4.tgz#5f54072de99cb1a84c37038ff29d72a949f48084"
+  integrity sha512-biaGrzxRce/+McWDkJOLrjCQnBsTuhEyKTRrkdKc/wjSnuEdIJzSyTQLm0yXJ6xKfpv+74O5BFH3VYT0Kk8Bxw==
   dependencies:
     "@graphql-codegen/add" "5.0.1"
     "@graphql-codegen/plugin-helpers" "5.0.2"
@@ -1551,18 +1560,18 @@
     "@types/parse-filepath" "^1.0.2"
     parse-filepath "^1.0.2"
 
-"@graphcommerce/graphql-codegen-relay-optimizer-plugin@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/graphql-codegen-relay-optimizer-plugin/-/graphql-codegen-relay-optimizer-plugin-8.0.3.tgz#68c0725aeb4fd5909643b91cb4cdbfbde485e6d8"
-  integrity sha512-QMXc0PKB0hQKa/xPkCNKfnoe2Jyj43h4KrNE+0COSqZjbylOVa2PL/uR7v2aFQWHJ/2aoOtwEhfa1kLcw2VQwA==
+"@graphcommerce/graphql-codegen-relay-optimizer-plugin@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/graphql-codegen-relay-optimizer-plugin/-/graphql-codegen-relay-optimizer-plugin-8.0.4.tgz#6cdc9b45b00bbcac20670733dc8aac86db18f71d"
+  integrity sha512-bi65Jkebjn79iMH1yopAWUUwKNWyPV4q9EOaLzUHurAtyjj0mO+jQbBXw2SQpZ/f38QH8LmlP6SKyObTGqtx5g==
   dependencies:
     "@ardatan/relay-compiler" "12.0.0"
     "@graphql-codegen/plugin-helpers" "5.0.2"
 
-"@graphcommerce/graphql-mesh@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/graphql-mesh/-/graphql-mesh-8.0.3.tgz#7151bbeb197ee5aff81782dc0a98e77cd5c4a7ad"
-  integrity sha512-PGwppGKmqIO40nz3YNahUkJFJ6KfKJFwMpboimfCMbc7JOrM5RACGGi3a4qJF/2B5xzenrGvGkEkKUdYLHfPOQ==
+"@graphcommerce/graphql-mesh@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/graphql-mesh/-/graphql-mesh-8.0.4.tgz#4ab9b57c8f6b0253715c4ee8e837dffd00cd8b4c"
+  integrity sha512-T/p9x6CS2Kpm8HcgZyHCQ02Z3/EeXwa6sObxTA4ijhSN1JDyExhm+i7B7XE6c1SBODBuxNbAx/aDcLxkQ+yYcw==
   dependencies:
     "@graphql-mesh/apollo-link" latest
     "@graphql-mesh/config" latest
@@ -1581,13 +1590,13 @@
     fetch-retry "^5.0.6"
     tslib "^2.6.2"
 
-"@graphcommerce/graphql@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/graphql/-/graphql-8.0.3.tgz#c4abae9e448886e3956727de8e0b3e1f40b1c3da"
-  integrity sha512-rFevPxsFvIuDSAy+g8nvgwsUX7nvTxQlWvnEj6g2b0cCzkwJYoxFtU+Cgs38X2E0H4odTVis9CznntW57LmdLw==
+"@graphcommerce/graphql@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/graphql/-/graphql-8.0.4.tgz#89a96d2341b276ac0ee29157217968efab5a0a44"
+  integrity sha512-g4Qt3ibW62C84y9lawgRyQMWY57pPqiyh4L8sd9Aouf4gV2BTK5Z+kQWvC1lB1VvuWEMYhWKxsLSO5oe8BqQcg==
   dependencies:
-    "@graphcommerce/graphql-codegen-near-operation-file" "8.0.3"
-    "@graphcommerce/graphql-codegen-relay-optimizer-plugin" "8.0.3"
+    "@graphcommerce/graphql-codegen-near-operation-file" "8.0.4"
+    "@graphcommerce/graphql-codegen-relay-optimizer-plugin" "8.0.4"
     "@graphql-codegen/add" "5.0.1"
     "@graphql-codegen/fragment-matcher" "5.0.1"
     "@graphql-codegen/introspection" "4.0.1"
@@ -1599,179 +1608,179 @@
     "@graphql-codegen/typescript-operations" "4.1.0"
     apollo3-cache-persist "^0.14.1"
 
-"@graphcommerce/hygraph-cli@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/hygraph-cli/-/hygraph-cli-8.0.3.tgz#f283513a1b5644724e22e322bcdcee03f8812c58"
-  integrity sha512-tucHrErJPOdOZ2gMUi78NZWbhUCYTXM28NpXYXUcYtLuwVbRqbpAfffHYMWOD2P2OkvXEltqfdf/s257Q5Rauw==
+"@graphcommerce/hygraph-cli@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/hygraph-cli/-/hygraph-cli-8.0.4.tgz#56d8c6cdbe5b98b6ecd26a4d5c5f4dddec0eecb1"
+  integrity sha512-Wgc0fa3KSznbVdzDKaxbEhJdg7i06lvvMJNXyau32317phHhr8cxZ9WamdE1FfUS+31kbr9M4yhOHwqBDZO/YA==
   dependencies:
     "@hygraph/management-sdk" "1.2.4"
     "@whatwg-node/fetch" "^0.9.15"
     graphql-tag "^2.12.6"
     prompts "^2.4.2"
 
-"@graphcommerce/hygraph-dynamic-rows@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/hygraph-dynamic-rows/-/hygraph-dynamic-rows-8.0.3.tgz#9c75cf4841a7f34b28b4255628b16f96e3314a4f"
-  integrity sha512-TMocI6f5dMBjkKiIVrQs8eHRuayJg6e9UfX45n/SCOf3jcV4EtBcY6TCozuitvks8KR9WRVuWXMbI3thWIPleQ==
+"@graphcommerce/hygraph-dynamic-rows@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/hygraph-dynamic-rows/-/hygraph-dynamic-rows-8.0.4.tgz#65979554dddb14ef894209ee851725e00927709a"
+  integrity sha512-S4Cyg3gbyA8MeYW5LSVz+YOgJ4KHQjOVExZLPbl3YOI2OnGLrIUuqoidbh7uzKsOcy5qImc3zJKRHFVgGkgg4A==
 
-"@graphcommerce/image@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/image/-/image-8.0.3.tgz#c0e81e04a82e7ca2572de163c617951be263f7b8"
-  integrity sha512-29nchqEMmkOanEGrKEyXGy/q0Rvs5eOCdCCpaYAXrfp2nCDC81NVQfw/l7ho9zBKdx/FEmUVtd03dfgUw3VXgQ==
+"@graphcommerce/image@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/image/-/image-8.0.4.tgz#8c03f3eeef9ccc7e2cde02eae718d24d1ec7ecd3"
+  integrity sha512-oNZNgVS4nmp1065Uwg7Ughvr5ZPOjEhOQDkbxRyFp/V6dyVEXtKB33MxeTmSvEgIGFb8SvmLYT7fXJHFifVJJg==
 
-"@graphcommerce/lingui-next@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/lingui-next/-/lingui-next-8.0.3.tgz#27a2443004b27cd98932b7ef87a5beb176fa510a"
-  integrity sha512-57JCC/78IhvIAQXFXsiUUlG0mtTwqPIB6vUd4WGgeoLayZ141D+PhLXLlpEBGq0/BDPv/85VppylXJGWI0awag==
+"@graphcommerce/lingui-next@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/lingui-next/-/lingui-next-8.0.4.tgz#36cf863d5a89779cbe242489d1708d10be9eb705"
+  integrity sha512-Fj3JwLHmcN1Eh8vXsnl4zl5uhteJnzFTl18q+9ShEUpiOfDLpa34aLfjrgNwuM+90Yu/U5LxWCmPh7r1q/qIeg==
 
-"@graphcommerce/magento-cart-billing-address@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-billing-address/-/magento-cart-billing-address-8.0.3.tgz#a8e2748eef122fade7b79322c9c5ca004e232742"
-  integrity sha512-ZmIslApSTyHMk+reOlHwKtABexBgpHfK/Blts7Oj3YlKn2hW0CA2yxug+3CxNd4NO8k4perpAaRFdVi2YmPNgA==
+"@graphcommerce/magento-cart-billing-address@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-billing-address/-/magento-cart-billing-address-8.0.4.tgz#9e188a176395bc814e8fc11e224df856d0164187"
+  integrity sha512-b+ejq2j4k3BLJ9oJ39VlqLa2mFHRfiqYjE/OIzFeslhjmwMW9URfeN9FPdALq0w+FPPVkwMdwXs9bXvGC4BwIw==
 
-"@graphcommerce/magento-cart-checkout@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-checkout/-/magento-cart-checkout-8.0.3.tgz#ea2905bf04c370dd992b5629d6bd3813ac4b3379"
-  integrity sha512-xth1uQLiuzWsGk2NEmOTwi0Cp/rHRAsASqcAZ73SknUgueCQ0PUceyaBg6KIC7APYgwhXTdaXwWuUpOXee2bYw==
+"@graphcommerce/magento-cart-checkout@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-checkout/-/magento-cart-checkout-8.0.4.tgz#4a6a060e349953e3942327f538acf69b7541b400"
+  integrity sha512-RCMgwHJ38ZygJYTK3F/TQhURGKQ2tUeoICQSoq2+sK34Omzcbq5e8oQ2TPjzSjOVuh2Otpp/3GHfG7n87nPf+g==
 
-"@graphcommerce/magento-cart-coupon@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-coupon/-/magento-cart-coupon-8.0.3.tgz#8240badcc4347c3ca1e9bd67d4b23781e54f8dc7"
-  integrity sha512-JAJ8Ux22nyJYWNNBONrdonki7+qaZFIakLJs/0U3m5wU23tuyBalWzVMwqmjzwHwi3f9VU32Ri8ekNUTN+7LjA==
+"@graphcommerce/magento-cart-coupon@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-coupon/-/magento-cart-coupon-8.0.4.tgz#d3548290ee55a67bce41662d9552ddbf28a2c3ef"
+  integrity sha512-KzNjYP/O90U58IiYKoQiU6JJH2p/S5OvPeBAnWgkxw+BnbeWQr2uzVpJxv6l02Pz0CPw8oLUi0Mf4Aj9h6Bz5w==
 
-"@graphcommerce/magento-cart-email@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-email/-/magento-cart-email-8.0.3.tgz#b713c48a7530d910401809cd8754f27f4e5d8a14"
-  integrity sha512-e2RszadJ3at0jxm4+CRxNK1Y9PjjxeaWcLGAEzIAr+pmeEQjVtosZG5Lc7CCGEFSnPq1jfCzLTaefZJ4O5WMUg==
+"@graphcommerce/magento-cart-email@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-email/-/magento-cart-email-8.0.4.tgz#c8b5e0e07c3f076580756122fa01fc2dfc09a1e1"
+  integrity sha512-A0DcmYZWsiVa445u8Ky8KWvt2PG4UCSfoDmgM2MvVm1jf4n1IeH230LCGOXcIidHMWDcYhQFbTdvk0lW4tx0LA==
 
-"@graphcommerce/magento-cart-items@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-items/-/magento-cart-items-8.0.3.tgz#898f9edcda45c91481b23a6f6af925af6844e3db"
-  integrity sha512-kn9a1hlqnXX8Q1iw7OJYpEbzw2zFa7SZ7Ugj3Gug3AIsuvVsjoKTnFxbl7C7KZVcujJEvpAT5KEItFD+gg0rfQ==
+"@graphcommerce/magento-cart-items@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-items/-/magento-cart-items-8.0.4.tgz#fd57aa72bf28c3b11f086924bfdc048ce9538dfe"
+  integrity sha512-CxZyZdFr7yCT+H8ApC9x74xiqKkPJihpUWzW4AwSZrPZSM3y4Mr5j33umvoHrugs2CqcAqyy88pikESquyY1vQ==
 
-"@graphcommerce/magento-cart-payment-method@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-payment-method/-/magento-cart-payment-method-8.0.3.tgz#fcf29be8db3d4b0e5435476785a4e6e22ac6dcb8"
-  integrity sha512-W5gf9zp9zvNaZ9ls6ddnGAaS3OHpBYL62+hR9tukclreNld65P6cr6mFPe3XQkp+hkxwf21L1bKxx0+2VReCxQ==
+"@graphcommerce/magento-cart-payment-method@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-payment-method/-/magento-cart-payment-method-8.0.4.tgz#a0b861aa61aa35cbd25338dba768e4c6775080eb"
+  integrity sha512-e5CtMOLgaoqhCl+cFIXpkjThGSeMd9NjwjyJO+0Sd8f5ZyC9VewBeioqcTc0UrkhvCyBmsaf+8ZDZDyGuBCgtQ==
 
-"@graphcommerce/magento-cart-shipping-address@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-shipping-address/-/magento-cart-shipping-address-8.0.3.tgz#db15484c2cbb1fdfc3785b0ec09757807a04fed4"
-  integrity sha512-aMIlTxGqhQ3byJinCNV7Bsh1EyzJ6IIc5Bvs+frO3Ju0BJHjqVlaMT6EdOqbxICR5i4pUQujK+D4Agfhq9Ckug==
+"@graphcommerce/magento-cart-shipping-address@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-shipping-address/-/magento-cart-shipping-address-8.0.4.tgz#4e60c05f0f602f557fe339f013e702119a6cb5d5"
+  integrity sha512-Zit/hFUsWjCnG5QrC9jx3dIkeOqb9jSfL+mPU4TgRwosOeITE5o2gvQ+gUNA20sHYEXdzrFXREbv69hg7D5ZBA==
 
-"@graphcommerce/magento-cart-shipping-method@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-shipping-method/-/magento-cart-shipping-method-8.0.3.tgz#beb58a40c46377eca58d5f8743317c42cb794b7b"
-  integrity sha512-E1oKb8ybc2pzpl/92N0ZrxSfkZxSW4ESwZFh8ai9jLBz0MGQ5Py83d4YbOiWtcOpcidCyW/bQep/q98vx5RnCA==
+"@graphcommerce/magento-cart-shipping-method@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart-shipping-method/-/magento-cart-shipping-method-8.0.4.tgz#851d7603f1ffdb93b9f9ee0a497dec21019b0ba0"
+  integrity sha512-/5J5IbTwHczg2FDTqBJK1fhWeZgtsbiFUezhEhc8fLUgQKyvA2VbysnEJR7hoZEr8ZTz3sTzZIKUvhsNUk4l1Q==
 
-"@graphcommerce/magento-cart@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart/-/magento-cart-8.0.3.tgz#a08413c2518676bba89decc2a78ebaa7bf2e558f"
-  integrity sha512-AS23k83PTwwpzuX7b3+SDX//42JqX/H882EEQVYsgqfPaXqGx6AZAh/yu8OVI4tN895eendzNv+rFrrnRSAjtw==
+"@graphcommerce/magento-cart@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cart/-/magento-cart-8.0.4.tgz#6e33bcd9d84f82b0052fa8ee7e5e5f857b9334cc"
+  integrity sha512-q9NuUoeLfpnXqmtn3bzpo4x3jhw2K1aqoRIkCbCDW2VNJma0zalvkq2xZ7+vQZ64OMFpkWSXrgxQziGgnMNh8g==
 
-"@graphcommerce/magento-category@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-category/-/magento-category-8.0.3.tgz#75a77ba3be6c0a85253da85e2b92138cbfa17847"
-  integrity sha512-gbR7yhpc20ea2ulLIh4ce+n9FxcXYGk9aKWBYWUDYUMpxczhloagdb0xd0tCy6w/Qhb2ClZYNuL3RUMohu1mtw==
+"@graphcommerce/magento-category@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-category/-/magento-category-8.0.4.tgz#3f28c35e57e233f79aab1368cc8cdf4d463a205e"
+  integrity sha512-LddcZRVFTe55e9U9UMh13WXHHUkWmFXlADiuk4Lz4GUF3xRRKCYI25MfFrHthnL4Trv+InUMTgy1JrBF6IbuAw==
 
-"@graphcommerce/magento-cms@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cms/-/magento-cms-8.0.3.tgz#e0b2167b67afc3edc4b0ccf05174a9f11c09e239"
-  integrity sha512-zAGu7kz1VBHaoW7BBId0+Uv1/ZMYVETdjVwasBL/yjSdwSFi7Lt4oxq1cOEb0e6AjMSGI/YV9sJU6J3qXEYE/A==
+"@graphcommerce/magento-cms@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-cms/-/magento-cms-8.0.4.tgz#5b5f07004b0e471551cb03ba5077948d58d8e4b7"
+  integrity sha512-un4BdVxzBQSCLzm1LGy3uJY6wlR49711FmRua9sTJv6OpSJXXEDsu1pc5Wxo96zFdOOKxMlUNboK9cbAgo7cyw==
 
-"@graphcommerce/magento-compare@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-compare/-/magento-compare-8.0.3.tgz#63a9b4a1b72494dd5c7e30204804fa711c5727fa"
-  integrity sha512-UhyfNdw+kls6d55+flEzD8rsWvVTmRym2Ro6tDhkvIWP9bPx3Q6MuE0zRCBd3mSKnq8drMh9jo5Fk3K/NcD7lA==
+"@graphcommerce/magento-compare@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-compare/-/magento-compare-8.0.4.tgz#e64f2b583c6ac2ea7f8e3ecb0322f94cc4faf032"
+  integrity sha512-IdmEmz5F8Zugf+hSGC5sg8b6QemvTV+W9j29vICRP2gN2WJOI9hsdEO53cYSQDQIg0fOXNKeIryuU877nMjRPg==
 
-"@graphcommerce/magento-customer@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-customer/-/magento-customer-8.0.3.tgz#799887d5f0b2fbd0b518f2b39441e69c9d83b553"
-  integrity sha512-kxQiL9w2YpNDxs9EDOQRZFIXPPidVuS2Te7IjdyivduEsS9JhEpOlNutUYr9pa7l/qc87uIGAhjOa6AAj5BBDQ==
+"@graphcommerce/magento-customer@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-customer/-/magento-customer-8.0.4.tgz#743e1f20c9c740a98fac66b321fcbe4edc13757c"
+  integrity sha512-ivxZ4fRbB44TSTuKv/BHpjGZZYgWEPinjEj4tcCsxhdLFblzpBXgnGJma0U2Pjl9NZhUrfJzt4hbVP3DjsCOXw==
 
-"@graphcommerce/magento-graphql@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-graphql/-/magento-graphql-8.0.3.tgz#088c1911b835c7a9acb602ca02966f6f03254bd9"
-  integrity sha512-yQkzpPUEpLuRbXFWD0m7vcMRMplk/6vHX0tiqjsujJZOj8p2YiXDSZFwWCbUw+9be0tVSbjKpU2AVHfA+eHbiw==
+"@graphcommerce/magento-graphql@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-graphql/-/magento-graphql-8.0.4.tgz#8b55ec64412d0fe7998d9ea742d9cdf53f9f51b5"
+  integrity sha512-m4SOOVCnNd6zb+VXrt8dLg6CDKIc5fH4d0HhVW4RbfV/UCkBdM5VdoJq2UwMaHgURRXIRo2b2YlNIVVBio1ZbA==
 
-"@graphcommerce/magento-newsletter@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-newsletter/-/magento-newsletter-8.0.3.tgz#f0bdc8ad04c649ddcb112c4eae664fa6de7e37b6"
-  integrity sha512-zxiUPP7IGAM3Wj0Fux8pduUH/2AaJPObDwuNFc/OX3DMxescOB061iw0vgS7Q7IOzsClj7d3fMXEePuf12+u2g==
+"@graphcommerce/magento-newsletter@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-newsletter/-/magento-newsletter-8.0.4.tgz#f3df12b93be09aa7ca8350536679015ca25299fd"
+  integrity sha512-MZk0QL2F1QSIMjoOYM6NcziUfrmzM2jXVTtM6yv8oJdWxEzBdyacx20GRifzbCN07OHipVbp1fxT/4RSg7cTTQ==
 
-"@graphcommerce/magento-payment-included@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-payment-included/-/magento-payment-included-8.0.3.tgz#3acfd2a4052ac960b6b6e9299a2e3a8a425d7bcd"
-  integrity sha512-uKS+mMB0/71uPwlxROVOjmFJrf1os6NghNSO0x/b6N7QsPLoIlw1KdUgcyCXN/ajB/0Zg1PqtWkpjoMjbatx+w==
+"@graphcommerce/magento-payment-included@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-payment-included/-/magento-payment-included-8.0.4.tgz#a60dc023721de9d2957abca7835c39f186c78e3d"
+  integrity sha512-572XOGJFKWzrUIZK7KjX3nRL8/WWVNwhjj0lppFFaqIABBywusgEZ2xlCiATRMlyhGVqoUSt+rTt5BsyPGK0aw==
 
-"@graphcommerce/magento-product-bundle@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product-bundle/-/magento-product-bundle-8.0.3.tgz#91c56a88070a9c99eed0a0e72fd9ff48f9b3e6d4"
-  integrity sha512-360qwE4yXdv78+q6Mco0GzoVOoiRXIRc+rlrONI51nrde7WhYYfaoVGEzBuhQFbniSvMoShq3VvlpMoD3n74Dg==
+"@graphcommerce/magento-product-bundle@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product-bundle/-/magento-product-bundle-8.0.4.tgz#b2da9ab33b394b5f1e22517850e7db728f9cbd56"
+  integrity sha512-CcxyI+dfT86UVyS3qwjfqgelJKzzwP/3Y0mT6P3c//6cDFF7/jTGe78S3jbQ35glNKyRgo4G4Cib2u81L1/U7A==
 
-"@graphcommerce/magento-product-configurable@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product-configurable/-/magento-product-configurable-8.0.3.tgz#7478b76d70e02870c3916dbe5747c28dce3e1677"
-  integrity sha512-5J0RTmELUY/kNlPnepqgoTO5QLW01gbkxLTcuyBZ2LqDltj80D/O1odxDzayk9c31GoeghuNvgei5+wDMjq9Qw==
+"@graphcommerce/magento-product-configurable@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product-configurable/-/magento-product-configurable-8.0.4.tgz#294e3c7e42b1195c57193ed1e253f1c8a1857272"
+  integrity sha512-g27IsdnVEcrNxP53U+ahEVhJ1H91IdzEr5s2gWcA4+9oh9p0bKn6sHoWgSj7z6JTJVuHQ1YiWNmE84v2rGrmtA==
 
-"@graphcommerce/magento-product-downloadable@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product-downloadable/-/magento-product-downloadable-8.0.3.tgz#529de1d2d5c4608f5ebe3f9493810061555c3683"
-  integrity sha512-uLd6QM5ibLAGT5SP0a9oArJc2fxt4Mwlw9f1m8UmetNRgqleqG/V35xCXqhKoUz8EgYPUUl+Nt9jlTsjZnrrhA==
+"@graphcommerce/magento-product-downloadable@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product-downloadable/-/magento-product-downloadable-8.0.4.tgz#995cf998bb1c3a0b20587335bbc3a72fa6223c95"
+  integrity sha512-x3TRlGdXCZ+nHp7FdcOtAhFzAwB+M5nofsax3sUHDhrAVfN4Ii3PXmZXx8gXmaaODvwzFUbRA34ycohUO8mvdg==
 
-"@graphcommerce/magento-product-grouped@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product-grouped/-/magento-product-grouped-8.0.3.tgz#ecf21f843a5cb52dd8c3f24822a1975a3b5a62c6"
-  integrity sha512-4Ou41CvTZ2jFsum6rcaJkjN9mZnZCERr9/KdP6dYk92vCxvHYdLOlm1VeLwodEVYQlyqkEIEm27x2qsWtGzQng==
+"@graphcommerce/magento-product-grouped@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product-grouped/-/magento-product-grouped-8.0.4.tgz#c41d75f61b59a14e5a94d4765314a7b7da8719b7"
+  integrity sha512-wyHGaepDKJerSisOMVQruIJS6WAoV/L6wWxxnpQRnI6fMf6poZT4OfbNTxBrbtr0bqCeMPsfaB+Ciq/glU80wg==
 
-"@graphcommerce/magento-product-simple@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product-simple/-/magento-product-simple-8.0.3.tgz#ec87862f76b0bc7144f79efe205dade37ecdd267"
-  integrity sha512-r0eCLXP/8Nu9zQvX6//knf8h1ThwQsBuuzfVip0k3tj/518kfs2mKFvu+Rs1qR0OaExTKPcE1xZuo7MYe1ROxg==
+"@graphcommerce/magento-product-simple@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product-simple/-/magento-product-simple-8.0.4.tgz#dc4f62d5bace105a407b86ab84da4a1d379242f3"
+  integrity sha512-j+fGcemC4ADuaUp4kc6V5X4b3o/lG8BhHfo4oB/nbZClRT0yTq/wfAw+/QahNAJYvVjVCPuJuCVXAlvkhAB1hA==
 
-"@graphcommerce/magento-product-virtual@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product-virtual/-/magento-product-virtual-8.0.3.tgz#856ff079d8540cf79bf39f67acc918b48b782aa8"
-  integrity sha512-tTU9V6io92esCiIao44d59wM3Mp3jsLg/DHJGVK2H5fRyc1GJNDzMMZe2Sq4E5gtjSRyMH6UM1rlNQ6+ayA7Ow==
+"@graphcommerce/magento-product-virtual@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product-virtual/-/magento-product-virtual-8.0.4.tgz#8c794e30eb2c18e9d0cf55faf250c136960f0056"
+  integrity sha512-kinEa0I8UaA30PdIjIImcudVIRAtNywRrk+yDoZcmwQ7TGPjoYKXo/O895MhDmmeFZ6oluwOYJLjjYYSFj/tGw==
 
-"@graphcommerce/magento-product@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product/-/magento-product-8.0.3.tgz#92a0227e3f410b81189641d644408301b3119e90"
-  integrity sha512-LVJhFz3s2l3m+Ncfxya1FZHoNfBv/3xizjUE2xANUkzQ3Z8vjr2vmduE5kMBprqb6CRLtwpdxxsqz3Iyz9aU8Q==
+"@graphcommerce/magento-product@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-product/-/magento-product-8.0.4.tgz#8a50516b04daf4d635596934eafe878217905636"
+  integrity sha512-y4umtgdPwn0AoOXNFiJLG5k7n+s9Pu0FBJ3hpOnXplAO4af6wbdoEFKyevwboyge1b+4sZ1NgJJ7Gn1CQkNJ5Q==
   dependencies:
     schema-dts "^1.1.2"
 
-"@graphcommerce/magento-recently-viewed-products@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-recently-viewed-products/-/magento-recently-viewed-products-8.0.3.tgz#2012689404549fcd05baaceb1aa58153bbce3207"
-  integrity sha512-D4S10it/2eLVi9Fu5b2WNCHiMKYjA3mpy5Mo3g4LuIPLbo90OM5RTcMETTW9Y5GB/OUcNoIwqdB6Q9+klSeXMw==
+"@graphcommerce/magento-recently-viewed-products@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-recently-viewed-products/-/magento-recently-viewed-products-8.0.4.tgz#55c575a9b645ffb7cc46eb24c1b52820068850c5"
+  integrity sha512-rAnpw+7WJ5iZA+ckv1qyeAola5Pm01zA8l9TqyLGB8yYNfi8kt9iJI2jV61qRm26cF7Szh4JBVPYW7xcL3bJsg==
 
-"@graphcommerce/magento-review@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-review/-/magento-review-8.0.3.tgz#30b8f029376b0c92371fb8316425ef2f8f853918"
-  integrity sha512-UXGv3UOYfNXVgs0Lx39BcHRSYEhRmR1TzDZ2u4YcjlziNGZCbvJpKGYjglDtW/Ju74VaiUzBYmbVQ/pIKjU7MQ==
+"@graphcommerce/magento-review@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-review/-/magento-review-8.0.4.tgz#c37c00e7775dfbef3a4bc14c970b20c760591807"
+  integrity sha512-rmm/I+0RnCsfNxSbFSl8KeCeeZY+OCLunSik4tFdi9JEgvOMWZKageSWc7QUVNh+B9lJNWxdOS/WrxScyFqcOg==
   dependencies:
     schema-dts "^1.1.2"
 
-"@graphcommerce/magento-search@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-search/-/magento-search-8.0.3.tgz#b3c0962ea996ec489bab0e3934b920e8c51685f3"
-  integrity sha512-XPTckr37VZLzdopNK27QS2YO0olniWvn/0qKcmZjFafq1KHg4AVglGZYYUqRpY25FM8qdgI9JDAz7qzWw4UHYg==
+"@graphcommerce/magento-search@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-search/-/magento-search-8.0.4.tgz#21a929c75e2a4c7f9b4c433ed58233221f92eb57"
+  integrity sha512-DBrEDOA294ZEjNBlK7A5fK60gOyUZh7R9oH88FygLSrrfD5VOPHHDFNu59kHzB+U2B/TWITB45mhqdzM+ByFHQ==
 
-"@graphcommerce/magento-store@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-store/-/magento-store-8.0.3.tgz#b6d71f79355219e1f69b0d57756585044a8e3175"
-  integrity sha512-fZW8/ZyTPEo5UYN71D7rkxtqEKSeJgEKAdf0ZYaJl1ZwO0hxmKwsl8Kip2rGqRQexfu5HDkd7hT6ZiiTupRGaQ==
+"@graphcommerce/magento-store@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-store/-/magento-store-8.0.4.tgz#1093cac74c6083321d685bab48b71633b69cbf15"
+  integrity sha512-hs5sPRjFzpXJLq4WlWQr+k7Qwjay8iSg+kw7NQZQ9K2B1L+IYgeRrJgYNcHCB0rsVyNl7bqrBODaI21E2IIKXQ==
 
-"@graphcommerce/magento-wishlist@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-wishlist/-/magento-wishlist-8.0.3.tgz#722009f1457191c792cde70f1080b07988954439"
-  integrity sha512-LAHGq4ZfAkOr9SXUchkos7FlAA8cQbad/NmqqP7ejwdtiTUAkMeUld2fOg8r8NAPA7iA6et8CSUJRiitzHYq1w==
+"@graphcommerce/magento-wishlist@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/magento-wishlist/-/magento-wishlist-8.0.4.tgz#ae87a41799d397cfa980cdffba457b69df0e61a3"
+  integrity sha512-5tgViG82UdIfndqd5uC4O1NJPcREwaAoWQLWpcOGATZk87NK2crUOujWE9Qj8qzmTE/4bUqHaMailA00NTuMsg==
 
-"@graphcommerce/next-config@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/next-config/-/next-config-8.0.3.tgz#95712e20dacfa9b34cc636c889da879f03944e7b"
-  integrity sha512-3cwFdq2b4BtcjUYRQ+cbbLIMjGUf8aYqlHedFyJxXnzp9rRiwdmqPCMt7iNUFJsUPlL1UKlDVpDMIyFv6jio2A==
+"@graphcommerce/next-config@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/next-config/-/next-config-8.0.4.tgz#308c5a2ab660e854dc31eeed04d5fd5be063e456"
+  integrity sha512-mrXrHPHy6UIwvWR8GJSb3tQcrQTQSmdp10TkdXfsTahb2ByURB21DqfNAYAkiwDYoL5P+yRzTVWgJk8ZGD6CNQ==
   dependencies:
     "@graphql-mesh/cli" latest
     "@lingui/loader" "4.7.0"
@@ -1784,10 +1793,10 @@
     znv "^0.4.0"
     zod "^3.22.4"
 
-"@graphcommerce/next-ui@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/next-ui/-/next-ui-8.0.3.tgz#03ec58612c695550c2f15b36d7a1962cc9e5caf4"
-  integrity sha512-gmdZpL71jg8op1TQVEgtUK5PbfOrs8+FHtDNzV9keXPf90v/znnrpxA5OOEfa0Y989+PVySSjbV46efb/rC0ZA==
+"@graphcommerce/next-ui@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/next-ui/-/next-ui-8.0.4.tgz#195bb82b6040d1f47ea3d42a7106c44068c31223"
+  integrity sha512-wABImESbNioH5qol+2fwPG+EJmpvdpuMJsio+slk5uK9GDncCavjq9wbQw7vBoyVnyQ8iyENneuYenV6LMh6Xg==
   dependencies:
     "@emotion/cache" "^11.11.0"
     "@emotion/react" "^11.11.3"
@@ -1796,22 +1805,22 @@
     cookie "^0.6.0"
     react-is "^18.2.0"
 
-"@graphcommerce/prettier-config-pwa@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/prettier-config-pwa/-/prettier-config-pwa-8.0.3.tgz#ad5f0ab4f577476a8bdf915e11dcb18539147c14"
-  integrity sha512-cFnbtEXXT4O6+vE/9AGs5BKttU+LzYuJMtcCfc9A0tj8oqQxnRAQJfpSsYZh3UA3QNsr0R9WG07xA4FuDUOdjQ==
+"@graphcommerce/prettier-config-pwa@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/prettier-config-pwa/-/prettier-config-pwa-8.0.4.tgz#f491e03d733cdbf61948a77452aee46c0b920952"
+  integrity sha512-D/8VD+KdlWMm7a+j59LWNUvAUxIIq5fvZWhol2FLC0DhcNhk03eYtiOn++0LVpCVCy39TNm/FIo6K4COBaTHFg==
   dependencies:
     prettier-plugin-jsdoc "^1.3.0"
 
-"@graphcommerce/react-hook-form@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/react-hook-form/-/react-hook-form-8.0.3.tgz#a2f8aaccf3362f732b8ad3a5ede99fd9258be67b"
-  integrity sha512-bYmAx7kgYnYX0Y+JyoHfbRdYZleGDd5hm7Ow4WRm6yXDxFHtV3u3wJPvGBaRvsIdOd/BxUC9Mi6pFh3AOdZmcQ==
+"@graphcommerce/react-hook-form@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/react-hook-form/-/react-hook-form-8.0.4.tgz#cb8ecbe51ea10b1949ed34c4ed6c4643191e8c5a"
+  integrity sha512-UJ5XfXC+5u5Ziqr8aYJIlgTQjE6HnxDqiyYM6dbjBKNpgGuHLHBu4RWuPmv637obmYds1fYzV6kvffydRMxpXg==
 
-"@graphcommerce/typescript-config-pwa@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@graphcommerce/typescript-config-pwa/-/typescript-config-pwa-8.0.3.tgz#f3612e5e492bbfce32f3158387e08578e8bc07a0"
-  integrity sha512-PDxW0lMcyHGRBwVVliYx6chFgj93ujhqSoh7fp9Icx5ew/T/3ElKtTCdCDQFy1WfsACkQzXfa9d9EAqCVeAMIg==
+"@graphcommerce/typescript-config-pwa@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@graphcommerce/typescript-config-pwa/-/typescript-config-pwa-8.0.4.tgz#2974d48c047e0a7093cf6fde9f029240324a081b"
+  integrity sha512-DuXWGCC6nymCRwfwUWgE8YSkZRF9fPKOs/S75vVhElvOIJUUXMzFsDLY1ZtvUpIU4naNgw8STkQPWOyfn2sWHQ==
 
 "@graphql-codegen/add@5.0.1":
   version "5.0.1"
@@ -3241,6 +3250,11 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-14.1.0.tgz#43d92ebb53bc0ae43dcc64fb4d418f8f17d7a341"
   integrity sha512-Py8zIo+02ht82brwwhTg36iogzFqGLPXlRGKQw5s+qP/kMNc4MAyDeEwBKDijk6zTIbegEgu8Qy7C1LboslQAw==
 
+"@next/env@14.1.1":
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/@next/env/-/env-14.1.1.tgz#80150a8440eb0022a73ba353c6088d419b908bac"
+  integrity sha512-7CnQyD5G8shHxQIIg3c7/pSeYFeMhsNbpU/bmvH7ZnDql7mNRgg8O2JZrhrc/soFnfBnKP4/xXNiiSIPn2w8gA==
+
 "@next/env@^13.4.3":
   version "13.5.6"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.5.6.tgz#c1148e2e1aa166614f05161ee8f77ded467062bc"
@@ -3253,50 +3267,50 @@
   dependencies:
     glob "10.3.10"
 
-"@next/swc-darwin-arm64@14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-14.1.0.tgz#70a57c87ab1ae5aa963a3ba0f4e59e18f4ecea39"
-  integrity sha512-nUDn7TOGcIeyQni6lZHfzNoo9S0euXnu0jhsbMOmMJUBfgsnESdjN97kM7cBqQxZa8L/bM9om/S5/1dzCrW6wQ==
+"@next/swc-darwin-arm64@14.1.1":
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-14.1.1.tgz#b74ba7c14af7d05fa2848bdeb8ee87716c939b64"
+  integrity sha512-yDjSFKQKTIjyT7cFv+DqQfW5jsD+tVxXTckSe1KIouKk75t1qZmj/mV3wzdmFb0XHVGtyRjDMulfVG8uCKemOQ==
 
-"@next/swc-darwin-x64@14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-14.1.0.tgz#0863a22feae1540e83c249384b539069fef054e9"
-  integrity sha512-1jgudN5haWxiAl3O1ljUS2GfupPmcftu2RYJqZiMJmmbBT5M1XDffjUtRUzP4W3cBHsrvkfOFdQ71hAreNQP6g==
+"@next/swc-darwin-x64@14.1.1":
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-14.1.1.tgz#82c3e67775e40094c66e76845d1a36cc29c9e78b"
+  integrity sha512-KCQmBL0CmFmN8D64FHIZVD9I4ugQsDBBEJKiblXGgwn7wBCSe8N4Dx47sdzl4JAg39IkSN5NNrr8AniXLMb3aw==
 
-"@next/swc-linux-arm64-gnu@14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-14.1.0.tgz#893da533d3fce4aec7116fe772d4f9b95232423c"
-  integrity sha512-RHo7Tcj+jllXUbK7xk2NyIDod3YcCPDZxj1WLIYxd709BQ7WuRYl3OWUNG+WUfqeQBds6kvZYlc42NJJTNi4tQ==
+"@next/swc-linux-arm64-gnu@14.1.1":
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-14.1.1.tgz#4f4134457b90adc5c3d167d07dfb713c632c0caa"
+  integrity sha512-YDQfbWyW0JMKhJf/T4eyFr4b3tceTorQ5w2n7I0mNVTFOvu6CGEzfwT3RSAQGTi/FFMTFcuspPec/7dFHuP7Eg==
 
-"@next/swc-linux-arm64-musl@14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-14.1.0.tgz#d81ddcf95916310b8b0e4ad32b637406564244c0"
-  integrity sha512-v6kP8sHYxjO8RwHmWMJSq7VZP2nYCkRVQ0qolh2l6xroe9QjbgV8siTbduED4u0hlk0+tjS6/Tuy4n5XCp+l6g==
+"@next/swc-linux-arm64-musl@14.1.1":
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-14.1.1.tgz#594bedafaeba4a56db23a48ffed2cef7cd09c31a"
+  integrity sha512-fiuN/OG6sNGRN/bRFxRvV5LyzLB8gaL8cbDH5o3mEiVwfcMzyE5T//ilMmaTrnA8HLMS6hoz4cHOu6Qcp9vxgQ==
 
-"@next/swc-linux-x64-gnu@14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.1.0.tgz#18967f100ec19938354332dcb0268393cbacf581"
-  integrity sha512-zJ2pnoFYB1F4vmEVlb/eSe+VH679zT1VdXlZKX+pE66grOgjmKJHKacf82g/sWE4MQ4Rk2FMBCRnX+l6/TVYzQ==
+"@next/swc-linux-x64-gnu@14.1.1":
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.1.1.tgz#cb4e75f1ff2b9bcadf2a50684605928ddfc58528"
+  integrity sha512-rv6AAdEXoezjbdfp3ouMuVqeLjE1Bin0AuE6qxE6V9g3Giz5/R3xpocHoAi7CufRR+lnkuUjRBn05SYJ83oKNQ==
 
-"@next/swc-linux-x64-musl@14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-14.1.0.tgz#77077cd4ba8dda8f349dc7ceb6230e68ee3293cf"
-  integrity sha512-rbaIYFt2X9YZBSbH/CwGAjbBG2/MrACCVu2X0+kSykHzHnYH5FjHxwXLkcoJ10cX0aWCEynpu+rP76x0914atg==
+"@next/swc-linux-x64-musl@14.1.1":
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-14.1.1.tgz#15f26800df941b94d06327f674819ab64b272e25"
+  integrity sha512-YAZLGsaNeChSrpz/G7MxO3TIBLaMN8QWMr3X8bt6rCvKovwU7GqQlDu99WdvF33kI8ZahvcdbFsy4jAFzFX7og==
 
-"@next/swc-win32-arm64-msvc@14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-14.1.0.tgz#5f0b8cf955644104621e6d7cc923cad3a4c5365a"
-  integrity sha512-o1N5TsYc8f/HpGt39OUQpQ9AKIGApd3QLueu7hXk//2xq5Z9OxmV6sQfNp8C7qYmiOlHYODOGqNNa0e9jvchGQ==
+"@next/swc-win32-arm64-msvc@14.1.1":
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-14.1.1.tgz#060c134fa7fa843666e3e8574972b2b723773dd9"
+  integrity sha512-1L4mUYPBMvVDMZg1inUYyPvFSduot0g73hgfD9CODgbr4xiTYe0VOMTZzaRqYJYBA9mana0x4eaAaypmWo1r5A==
 
-"@next/swc-win32-ia32-msvc@14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-14.1.0.tgz#21f4de1293ac5e5a168a412b139db5d3420a89d0"
-  integrity sha512-XXIuB1DBRCFwNO6EEzCTMHT5pauwaSj4SWs7CYnME57eaReAKBXCnkUE80p/pAZcewm7hs+vGvNqDPacEXHVkw==
+"@next/swc-win32-ia32-msvc@14.1.1":
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-14.1.1.tgz#5c06889352b1f77e3807834a0d0afd7e2d2d1da2"
+  integrity sha512-jvIE9tsuj9vpbbXlR5YxrghRfMuG0Qm/nZ/1KDHc+y6FpnZ/apsgh+G6t15vefU0zp3WSpTMIdXRUsNl/7RSuw==
 
-"@next/swc-win32-x64-msvc@14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.1.0.tgz#e561fb330466d41807123d932b365cf3d33ceba2"
-  integrity sha512-9WEbVRRAqJ3YFVqEZIxUqkiO8l1nool1LmNxygr5HWF8AcSYsEpneUDhmjUVJEzO2A04+oPtZdombzzPPkTtgg==
+"@next/swc-win32-x64-msvc@14.1.1":
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.1.1.tgz#d38c63a8f9b7f36c1470872797d3735b4a9c5c52"
+  integrity sha512-S6K6EHDU5+1KrBDLko7/c1MNy/Ya73pIAmvKeFwsF4RmBFJSO7/7YeD4FnZ4iBdzE69PpQ4sOMU9ORKeNuxe8A==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -5420,9 +5434,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 ejs@^3.1.6:
-  version "3.1.9"
-  resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.9.tgz#03c9e8777fe12686a9effcef22303ca3d8eeb361"
-  integrity sha512-rC+QVNMJWv+MtPgkt0y+0rVEIdbtxVADApW9JXrUVlzHetgcyczP/E7DJmWJ4fJCZF2cPcBk0laWO9ZHMG3DmQ==
+  version "3.1.10"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.10.tgz#69ab8358b14e896f80cc39e62087b88500c3ac3b"
+  integrity sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==
   dependencies:
     jake "^10.8.5"
 
@@ -8105,12 +8119,12 @@ next-sitemap@4.2.3:
     fast-glob "^3.2.12"
     minimist "^1.2.8"
 
-next@14.1.0:
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/next/-/next-14.1.0.tgz#b31c0261ff9caa6b4a17c5af019ed77387174b69"
-  integrity sha512-wlzrsbfeSU48YQBjZhDzOwhWhGsy+uQycR8bHAOt1LY1bn3zZEcDyHQOEoN3aWzQ8LHCAJ1nqrWCc9XF2+O45Q==
+next@14.1.1:
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/next/-/next-14.1.1.tgz#92bd603996c050422a738e90362dff758459a171"
+  integrity sha512-McrGJqlGSHeaz2yTRPkEucxQKe5Zq7uPwyeHNmJaZNY4wx9E9QdxmTp310agFRoMuIYgQrCrT3petg13fSVOww==
   dependencies:
-    "@next/env" "14.1.0"
+    "@next/env" "14.1.1"
     "@swc/helpers" "0.5.2"
     busboy "1.6.0"
     caniuse-lite "^1.0.30001579"
@@ -8118,15 +8132,15 @@ next@14.1.0:
     postcss "8.4.31"
     styled-jsx "5.1.1"
   optionalDependencies:
-    "@next/swc-darwin-arm64" "14.1.0"
-    "@next/swc-darwin-x64" "14.1.0"
-    "@next/swc-linux-arm64-gnu" "14.1.0"
-    "@next/swc-linux-arm64-musl" "14.1.0"
-    "@next/swc-linux-x64-gnu" "14.1.0"
-    "@next/swc-linux-x64-musl" "14.1.0"
-    "@next/swc-win32-arm64-msvc" "14.1.0"
-    "@next/swc-win32-ia32-msvc" "14.1.0"
-    "@next/swc-win32-x64-msvc" "14.1.0"
+    "@next/swc-darwin-arm64" "14.1.1"
+    "@next/swc-darwin-x64" "14.1.1"
+    "@next/swc-linux-arm64-gnu" "14.1.1"
+    "@next/swc-linux-arm64-musl" "14.1.1"
+    "@next/swc-linux-x64-gnu" "14.1.1"
+    "@next/swc-linux-x64-musl" "14.1.1"
+    "@next/swc-win32-arm64-msvc" "14.1.1"
+    "@next/swc-win32-ia32-msvc" "14.1.1"
+    "@next/swc-win32-x64-msvc" "14.1.1"
 
 no-case@^3.0.4:
   version "3.0.4"
@@ -9458,7 +9472,16 @@ string-similarity@^4.0.1:
   resolved "https://registry.yarnpkg.com/string-similarity/-/string-similarity-4.0.4.tgz#42d01ab0b34660ea8a018da8f56a3309bb8b2a5b"
   integrity sha512-/q/8Q4Bl4ZKAPjj8WerIBJWALKkaPRfrvhfF8k/B23i4nzrlRj2/go1m90In7nG/3XDSbOo0+pu6RvCTM9RGMQ==
 
-"string-width-cjs@npm:string-width@^4.2.0", "string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
+"string-width-cjs@npm:string-width@^4.2.0":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+"string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -9550,7 +9573,14 @@ stringify-object@^3.3.0:
     is-obj "^1.0.1"
     is-regexp "^1.0.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -9648,9 +9678,9 @@ tapable@^2.1.1, tapable@^2.2.0:
   integrity sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==
 
 tar@^6.1.11, tar@^6.1.2:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/tar/-/tar-6.2.0.tgz#b14ce49a79cb1cd23bc9b016302dea5474493f73"
-  integrity sha512-/Wo7DcT0u5HUV486xg675HtjNd3BXZ6xDbzsCUZPt5iw8bTQ63bP0Raut3mvro9u+CUyq7YQd8Cx55fsZXxqLQ==
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-6.2.1.tgz#717549c541bc3c2af15751bea94b1dd068d4b03a"
+  integrity sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==
   dependencies:
     chownr "^2.0.0"
     fs-minipass "^2.0.0"
@@ -9933,8 +9963,9 @@ typescript@^5.4.2:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.3.tgz#5c6fedd4c87bee01cd7a528a30145521f8e0feff"
   integrity sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==
 
-"uWebSockets.js@github:uNetworking/uWebSockets.js#semver:^20":
+"uWebSockets.js@uNetworking/uWebSockets.js#semver:^20":
   version "20.43.0"
+  uid "1977b5039938ad863d42fc4958d48c17e5a1fa06"
   resolved "https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/1977b5039938ad863d42fc4958d48c17e5a1fa06"
 
 ua-parser-js@^1.0.35:
@@ -10440,7 +10471,7 @@ workbox-window@7.0.0:
     "@types/trusted-types" "^2.0.2"
     workbox-core "7.0.0"
 
-"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
@@ -10453,6 +10484,15 @@ wrap-ansi@^6.0.1, wrap-ansi@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
   integrity sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
+wrap-ansi@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
+  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
   dependencies:
     ansi-styles "^4.0.0"
     string-width "^4.1.0"
