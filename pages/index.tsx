@@ -27,7 +27,6 @@ function CmsPage(props: Props) {
   const latest = latestList?.products?.items?.[0]
   const favorite = favoritesList?.products?.items?.[0]
   const swipable = swipableList?.products?.items?.[0]
-
   return (
     <>
       <PageMeta
@@ -36,33 +35,34 @@ function CmsPage(props: Props) {
         metaRobots={page?.metaRobots.toLowerCase().split('_') as MetaRobots[] | undefined}
         canonical='/'
       />
+      <div className='HomePg'>
+        <LayoutHeader floatingMd floatingSm />
 
-      <LayoutHeader floatingMd floatingSm />
+        {page && (
+          <RowRenderer
+            content={page.content}
+            renderer={{
+              RowProduct: (rowProps) => {
+                const { identity } = rowProps
 
-      {page && (
-        <RowRenderer
-          content={page.content}
-          renderer={{
-            RowProduct: (rowProps) => {
-              const { identity } = rowProps
-
-              if (identity === 'home-favorites')
+                if (identity === 'home-favorites')
+                  return (
+                    <RowProduct {...rowProps} {...favorite} items={favoritesList.products?.items} />
+                  )
+                if (identity === 'home-best-seller')
+                  return <RowProduct {...rowProps} {...latest} items={latestList.products?.items} />
+                if (identity === 'home-swipable')
+                  return (
+                    <RowProduct {...rowProps} {...swipable} items={swipableList.products?.items} />
+                  )
                 return (
                   <RowProduct {...rowProps} {...favorite} items={favoritesList.products?.items} />
                 )
-              if (identity === 'home-best-seller')
-                return <RowProduct {...rowProps} {...latest} items={latestList.products?.items} />
-              if (identity === 'home-swipable')
-                return (
-                  <RowProduct {...rowProps} {...swipable} items={swipableList.products?.items} />
-                )
-              return (
-                <RowProduct {...rowProps} {...favorite} items={favoritesList.products?.items} />
-              )
-            },
-          }}
-        />
-      )}
+              },
+            }}
+          />
+        )}
+      </div>
     </>
   )
 }

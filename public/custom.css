@@ -1,48 +1,50 @@
 /* home Category section */
-
-.HomePg .RowColumnOne {
+.HomePg .home-hero-banner .HeroBanner-root {
+  margin-bottom: 60px;
+}
+.HomePg .uni-head {
   text-align: center;
 }
-
-.HomePg .RowColumnThree .MuiBox-root {
+.HomePg .uni-head .MuiContainer-root {
+  margin-bottom: 30px;
+}
+.HomePg .category-section .MuiContainer-root {
+  margin-bottom: 80px;
+}
+.HomePg .category-section .MuiBox-root {
   text-align: center;
   position: relative;
 }
-
-.HomePg .RowColumnThree .MuiBox-root .MuiTypography-root a {
+.HomePg .category-section .MuiBox-root .MuiTypography-root a {
   position: absolute;
   left: 0;
   right: 0;
   margin: 0;
   top: 40%;
-  background: #ffffff4a;
+  background: rgba(255, 255, 255, 0.2901960784);
   line-height: 1.2;
   padding: 30px 0;
   color: white;
 }
-
-.HomePg .RowHeroBanner .HeroBanner-root {
-  margin-bottom: 60px;
-}
-
-/* fabrice home section */
-
-.HomePg .RowSpecialBanner .SpecialBanner-root {
+.HomePg .summer-fabric-section .SpecialBanner-root {
   padding: 0;
   margin-bottom: 50px;
   position: relative;
 }
-
-.HomePg .RowSpecialBanner .SpecialBanner-root .MuiContainer-root {
-  display: block;
+.HomePg .summer-fabric-section .SpecialBanner-root .SpecialBanner-asset {
+  width: 100%;
 }
-
-.HomePg .RowSpecialBanner .SpecialBanner-root .MuiContainer-root .SpecialBanner-asset img {
+.HomePg .summer-fabric-section .SpecialBanner-root .MuiContainer-root {
+  display: block;
+  margin-bottom: 80px;
+}
+.HomePg .summer-fabric-section .SpecialBanner-root .MuiContainer-root .SpecialBanner-asset img {
   border-radius: 0;
   filter: brightness(0.8);
+  width: 100%;
+  max-width: 100%;
 }
-
-.HomePg .RowSpecialBanner .SpecialBanner-root .SpecialBanner-copy {
+.HomePg .summer-fabric-section .SpecialBanner-root .SpecialBanner-copy {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,16 +53,33 @@
   position: absolute;
   top: 40%;
 }
-
-.HomePg .RowSpecialBanner .SpecialBanner-root .SpecialBanner-copy h2 {
+.HomePg .summer-fabric-section .SpecialBanner-root .SpecialBanner-copy h2 {
   font-size: 36px;
   margin-bottom: 20px;
 }
-
-.HomePg .RowSpecialBanner .SpecialBanner-root .SpecialBanner-copy .MuiLink-root {
+.HomePg .summer-fabric-section .SpecialBanner-root .SpecialBanner-copy .MuiLink-root {
   text-decoration: unset;
   padding-bottom: 10px;
   border-bottom: 3px solid #fff;
   padding-left: 10px;
   padding-right: 10px;
 }
+.HomePg .new-looks-section .MuiContainer-root {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 50px;
+  justify-content: space-between;
+}
+.HomePg .new-looks-section .MuiContainer-root .RowLinks-title {
+  position: absolute;
+  right: 42%;
+  top: 10%;
+  margin: 0;
+}
+.HomePg .new-looks-section .MuiContainer-root .RowLinks-copy {
+  width: 50%;
+}
+.HomePg .new-looks-section .MuiContainer-root .RowLinks-scrollerWrapper {
+  width: 50%;
+}/*# sourceMappingURL=custom.css.map */
