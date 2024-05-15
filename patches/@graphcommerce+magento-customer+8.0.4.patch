@@ -1,0 +1,24 @@
+diff --git a/node_modules/@graphcommerce/magento-customer/components/AccountSignInUpForm/AccountSignInUpForm.tsx b/node_modules/@graphcommerce/magento-customer/components/AccountSignInUpForm/AccountSignInUpForm.tsx
+old mode 100644
+new mode 100755
+index c0caade..ba90c3b
+--- a/node_modules/@graphcommerce/magento-customer/components/AccountSignInUpForm/AccountSignInUpForm.tsx
++++ b/node_modules/@graphcommerce/magento-customer/components/AccountSignInUpForm/AccountSignInUpForm.tsx
+@@ -38,7 +38,7 @@ export function AccountSignInUpForm(props: AccountSignInUpFormProps) {
+   const client = useApolloClient()
+ 
+   return (
+-    <FormDiv sx={sx} className={classes.root}>
++    <FormDiv sx={sx} className={`${classes.root} cstm_form_changes`}>
+       <Box
+         className={classes.titleContainer}
+         sx={(theme) => ({ typography: 'body1', marginBottom: theme.spacings.xs })}
+@@ -68,7 +68,7 @@ export function AccountSignInUpForm(props: AccountSignInUpFormProps) {
+         {mode === 'signup' && (
+           <>
+             <LayoutTitle variant='h2' gutterBottom={false}>
+-              <Trans id='Create account!' />
++              <Trans id='Register account!' />
+             </LayoutTitle>
+             <Typography variant='h6' align='center'>
+               <Trans id='Create a password and tell us your name' />

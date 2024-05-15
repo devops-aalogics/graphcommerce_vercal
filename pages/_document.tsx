@@ -14,6 +14,7 @@ class Document extends NextDocument<EmotionCacheProps & LinguiDocumentProps> {
           {this.props.emotionStyleTags}
           {this.props.linguiScriptTag}
           <link rel='stylesheet' href='/custom2.css' />
+          <link rel='stylesheet' href='/custom.css' />
         </Head>
         <body>
           <Main />
