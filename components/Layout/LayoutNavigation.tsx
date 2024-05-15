@@ -169,12 +169,6 @@ export function LayoutNavigation(props: LayoutNavigationProps) {
                 <DesktopNavItem href='/blog'>
                   <Trans id='Our news' />
                 </DesktopNavItem>
-
-                <DesktopNavItem href='/testpage'>
-                  <Trans id='Test Page' />
-                </DesktopNavItem>
-
-                <StoreSwitcherButton />
               </DesktopNavBar>
 
               <DesktopNavActions>
@@ -185,6 +179,7 @@ export function LayoutNavigation(props: LayoutNavigationProps) {
                     breakpoint='lg'
                   />
                 )}
+                <StoreSwitcherButton />
 
                 {/* The placeholder exists because the CartFab is sticky but we want to reserve the space for the <CartFab /> */}
                 <PlaceholderFab />

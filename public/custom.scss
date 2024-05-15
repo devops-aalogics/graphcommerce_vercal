@@ -9,6 +9,9 @@
       margin-bottom: 60px;
       padding: 0;
     }
+    video.HeroBanner-video {
+      filter: brightness(0.8);
+    }
   }
   .uni-head {
     text-align: center;
@@ -106,5 +109,20 @@
     .MuiContainer-root {
       margin-bottom: 40px;
     }
+  }
+}
+
+.LayoutDefault-header {
+  height: 180px;
+  position: absolute;
+  width: 100%;
+  .mui-style-1kj457 {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 5px 0;
+    margin-top: 20px;
+  }
+  .DesktopNavBar-scroller {
+    margin: auto;
   }
 }
