@@ -4,7 +4,7 @@ import { PageContentQueryFragment } from './PageContentQueryFragment.gql'
 import { RowButtonLinkList } from './RowButtonLinkList/RowButtonLinkList'
 import { RowColumnOne } from './RowColumnOne/RowColumnOne'
 import { RowColumnThree } from './RowColumnThree/RowColumnThree'
-import { RowColumnTwo } from './RowColumnTwo/RowColumnTwo'
+// import { RowColumnTwo } from './RowColumnTwo-bkb/RowColumnTwo'
 import { RowContentLinks } from './RowContentLinks/RowContentLinks'
 import { RowHeroBanner } from './RowHeroBanner/RowHeroBanner'
 import { RowLinks } from './RowLinks/RowLinks'
@@ -19,7 +19,7 @@ type ContentTypeRenderer = TypeRenderer<PageContentQueryFragment['pages'][0]['co
 
 const defaultRenderer: Partial<ContentTypeRenderer> = {
   RowColumnOne,
-  RowColumnTwo,
+  // RowColumnTwo,
   RowColumnThree,
   RowHeroBanner,
   RowSpecialBanner,
@@ -41,11 +41,14 @@ export function RowRenderer(props: PageProps) {
   const { content, renderer, loadingEager = 2 } = props
   const mergedRenderer = { ...defaultRenderer, ...renderer } as ContentTypeRenderer
 
+  function hasIdentity(item: any): item is { identity: string } {
+    return typeof item?.identity === 'string'
+  }
   return (
     <>
       {content?.map((item, index) => (
         <LazyHydrate key={item.id} hydrated={index < loadingEager ? true : undefined}>
-          <Box className={item?.identity ? item?.identity : `${item.__typename}`}>
+          <Box className={hasIdentity(item) ? item.identity : item?.__typename || null}>
             <RenderType renderer={mergedRenderer} {...item} />
           </Box>
         </LazyHydrate>
