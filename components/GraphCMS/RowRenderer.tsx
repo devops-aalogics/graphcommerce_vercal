@@ -41,11 +41,14 @@ export function RowRenderer(props: PageProps) {
   const { content, renderer, loadingEager = 2 } = props
   const mergedRenderer = { ...defaultRenderer, ...renderer } as ContentTypeRenderer
 
+  function hasIdentity(item: any): item is { identity: string } {
+    return typeof item?.identity === 'string'
+  }
   return (
     <>
       {content?.map((item, index) => (
         <LazyHydrate key={item.id} hydrated={index < loadingEager ? true : undefined}>
-          <Box className={item?.identity ? item?.identity : `${item.__typename}`}>
+          <Box className={hasIdentity(item) ? item.identity : item?.__typename || null}>
             <RenderType renderer={mergedRenderer} {...item} />
           </Box>
         </LazyHydrate>
