@@ -10,11 +10,15 @@ import { CssBaseline } from '@mui/material'
 import { AppProps } from 'next/app'
 import { lightTheme, darkTheme } from '../components/theme'
 import { I18nProvider } from '../lib/i18n/I18nProvider'
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
+
 export default function ThemedApp(props: AppProps) {
   const { router } = props
   const { locale = 'en' } = router
 
   return (
+    <LocalizationProvider dateAdapter={AdapterDayjs}>
     <CssAndFramerMotionProvider {...props}>
       <I18nProvider key={locale} locale={locale}>
         <GraphQLProvider {...props}>
@@ -27,5 +31,6 @@ export default function ThemedApp(props: AppProps) {
         </GraphQLProvider>
       </I18nProvider>
     </CssAndFramerMotionProvider>
+       </LocalizationProvider>
   )
 }
